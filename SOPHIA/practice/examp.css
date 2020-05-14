@@ -1,0 +1,94 @@
+ so boldhtml {
+    font-family: "Times New Roman" ,serif,sans-serif,;
+}
+
+
+body{
+    /* background-image: url(zebra.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    background-color: #444;
+    /* text-align: center; */
+    
+}
+
+img {
+    max-width: 100%; /*making the imagie adjustable to all screens.*/
+    height: auto; /*ame as above*/
+    /* opacity: 0.5; this is like 50% light */
+    opacity: 1;
+    padding: 5px;
+   /* display: block;
+    margin: auto; -centres the image*/
+    margin-bottom: 60px;
+
+}
+
+.borderImg {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    padding: 5px; /*space btn image and border*/
+}
+
+/*h1{
+    color: green !important; important surpresses all other formatings 
+    subjected to a given tag now for this case all h1s will; must be green
+}*/
+
+
+
+h1 ,h2, h3 {
+    color: lightyellow;
+    text-shadow: 2px 2px 5px black;
+    line-height: 1rem;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 30px;
+    font-style: normal;
+}
+.formatting{
+    font-size: 25px;
+    line-height: 2em;
+    color: whitediv;
+}
+
+button {
+    color: white;
+    background: red;
+    border-radius: 12px;
+    border: none;
+    font-size: 25px;
+    padding: 10px 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: yellow;
+    word-spacing: 30px;
+    text-transform: uppercase;
+}
+
+/* ul li {
+    color: gold;
+    font-size: 20px;
+}
+
+ul > li {
+    color: yellow;
+} */
+.row{
+    display: flex;
+    width: 100%;
+}
+
+.row : : after  {
+    display: block;
+    clear:both;
+    content: "";
+}
